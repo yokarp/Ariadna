@@ -1,0 +1,98 @@
+[{
+        "id": 1,
+        "title": "Bohemian Rhapsody",
+        "description": "This is the story of how Freddie Mercury and his fellow band members Brian May, Roger Taylor and John Deacon formed Queen - one of the most iconic rock groups of all time. The film follows Queen as they produce hit after hit, topping the charts while constantly evolving their sound. Bohemian Rhapsody is a foot-stomping celebration of the band, their music and their extraordinary lead singer Freddie Mercury, who defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. The story traces the meteoric rise of the band through their iconic songs and revolutionary sound, their near-implosion as Mercury's lifestyle spirals out of control, and their triumphant reunion on the eve of Live Aid, where Mercury, facing a life-threatening illness, leads the band in one of the greatest performances in the history of rock music. In the process, cementing the legacy of a band that were always more like a family, and who continue to inspire outsiders, dreamers and music lovers to this day.",
+        "producer": "Co-production United Kingdom-United States; 20th Century Fox, GK Films, Regency Enterprises, Queen Films Ltd., Tribeca Productions, Regency Enterprises. Distributed by 20th Century Fox",
+        "new": true,
+        "favorite": true,
+        "puntuation": 65,
+        "recommend": true,
+        "img": "./assets/images/thumbnails/bohemian-rhapsody.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Venom",
+        "description": "Eddie Brock (Tom Hardy) is an investigative journalist in San Francisco asking probing questions about the preening space-tech CEO Carlton Drake (Riz Ahmed). The reporter’s quest to uncover shady dealings eventually costs him his job and ruins his relationship with his fiancée, Anne Weying (Michelle Williams). So Eddie breaks into Drake’s secret lab, where he comes into contact with an alien creature— Venom, a glob of black goo one can wear as a kind of living costume—that seeps right into his skin",
+        "producer": "DC Comics, DC Entertainment, Warner Bros.. Producer: Deborah Snyder",
+        "trends": false,
+        "new": true,
+        "favorite": false,
+        "puntuation": 54,
+        "recommend": false,
+        "img": "./assets/images/banners/banner-venom.png"
+    },
+    {
+        "id": 3,
+        "title": "Avengers: Infinity War",
+        "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe. Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality. The fate of the planet and existence itself has never been more uncertain as everything the Avengers have fought for has led up to this moment",
+        "producer": "Marvel Studios",
+        "new": true,
+        "trends": true,
+        "favorite": true,
+        "puntuation": 75,
+        "recommend": true,
+        "img": "./assets/images/banners/banner-venom.png"
+    },
+    {
+        "id": 4,
+        "title": "First Man",
+        "description": "A biopic on the life of the legendary American Astronaut Neil Armstrong from 1961-1969, on his journey to becoming the first human to walk the moon. Exploring the sacrifices and costs on the Nation and Neil himself, during one of the most dangerous missions in the history of space travel",
+        "producer": "Universal Pictures, DreamWorks SKG, Temple Hill Entertainment, Perfect World Pictures",
+        "new": true,
+        "trends": false,
+        "favorite": true,
+        "puntuation": 64,
+        "recommend": true,
+        "img": "./assets/images/banners/banner-venom.png"
+    },
+    {
+        "id": 5,
+        "title": "Han Solo: A Smuggler's Trade (S)",
+        "description": "A young smuggler by the name of Han Solo is on a mission to rescue his pal Chewbacca. Which of course brings some trouble along the way",
+        "producer": "Distributed by YouTube",
+        "new": false,
+        "trends": false,
+        "favorite": false,
+        "puntuation": 57,
+        "recommend": true,
+        "img": ""
+    },
+    {
+        "id": 6,
+        "title": "The Incredibles 2",
+        "description": "In “Incredibles 2”, Helen is called on to lead a campaign to bring Supers back, while Bob navigates the day-to-day heroics of “normal” life at home with Violet, Dash and baby Jack-Jack—whose superpowers are about to be discovered. Their mission is derailed, however, when a new villain emerges with a brilliant and dangerous plot that threatens everything. But the Parrs don’t shy away from a challenge, especially with Frozone by their side",
+        "new": true,
+        "trends": false,
+        "producer": "Pixar Animation Studios, Walt Disney Pictures",
+        "favorite": false,
+        "puntuation": 68,
+        "recommend": false,
+        "img": "./assets/images/banners/banner-venom.png"
+    },
+    {
+        "id": 7,
+        "title": "Jurassic World: Fallen Kingdom",
+        "description": "A volcanic eruption threatens the remaining dinosaurs on the island of Isla Nublar, where the creatures have freely roamed for several years after the demise of an animal theme park Jurassic World. Claire Dearing, the former park manager, has now founded the Dinosaur Protection Group, an organization dedicated to protecting the dinosaurs. To help with her cause, Claire has recruited Owen Grady, the former dinosaur trainer who worked at the park, to prevent the extinction of the dinosaurs once again",
+        "producer": "Universal Pictures, Amblin Entertainment, The Kennedy/Marshall Company, Perfect World Pictures, Legendary Pictures. Distributed by Universal Pictures",
+        "new": true,
+        "trends": false,
+        "favorite": false,
+        "puntuation": 56,
+        "recommend": false,
+        "img": "./assets/images/banners/banner-venom.png"
+    },
+    {
+        "id": 8,
+        "title": "",
+        "description": "Based upon Marvel Comics’ most unconventional anti-hero, 'Deadpool' tells the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life",
+        "producer": "Marvel Entertainment, Marvel Studios, 20th Century Fox. Producer: Ryan Reynolds",
+        "new": false,
+        "trends": true,
+        "favorite": false,
+        "puntuation": 70,
+        "recommend": true,
+        "img": "./assets/images/banners/banner-venom.png"
+    }
+
+
+]

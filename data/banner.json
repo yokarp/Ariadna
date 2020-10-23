@@ -1,0 +1,37 @@
+[{
+        "id": 1,
+        "title": "Aquaman",
+        "description": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and to be a hero to the world",
+        "producer": "DC Comics, DC Entertainment, Warner Bros.. Producer: Deborah Snyder",
+        "trends": true,
+        "new": false,
+        "favorite": false,
+        "puntuation": 57,
+        "recommend": true,
+        "img": "./assets/images/banners/banner-aquaman.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Bumblebee",
+        "description": "On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken",
+        "producer": "Hasbro, Paramount Pictures, Platinum Dunes, Allspark Pictures, Laika Entertainment",
+        "trends": true,
+        "new": false,
+        "favorite": true,
+        "puntuation": 63,
+        "recommend": true,
+        "img": "./assets/images/banners/banner-bumblebee.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Venom",
+        "description": "Eddie Brock (Tom Hardy) is an investigative journalist in San Francisco asking probing questions about the preening space-tech CEO Carlton Drake (Riz Ahmed). The reporter’s quest to uncover shady dealings eventually costs him his job and ruins his relationship with his fiancée, Anne Weying (Michelle Williams). So Eddie breaks into Drake’s secret lab, where he comes into contact with an alien creature— Venom, a glob of black goo one can wear as a kind of living costume—that seeps right into his skin",
+        "producer": "DC Comics, DC Entertainment, Warner Bros.. Producer: Deborah Snyder",
+        "trends": false,
+        "new": true,
+        "favorite": false,
+        "puntuation": 54,
+        "recommend": true,
+        "img": "./assets/images/banners/banner-venom.png"
+    }
+]
