@@ -8,7 +8,7 @@
         "favorite": false,
         "puntuation": 57,
         "recommend": true,
-        "img": "./assets/images/banners/banner-aquaman.jpg"
+        "img": "../assets/images/banners/banner-aquaman.jpg"
     },
     {
         "id": 2,
