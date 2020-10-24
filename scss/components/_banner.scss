@@ -1,3 +1,50 @@
+@import "variables";
+
 .carousel__contenedor{
-    position: relative
+    position: relative;
 }
+
+%buttons{
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: none;
+    top: 30vh;
+    cursor: pointer;
+    line-height: 100px;
+    text-align: center;
+    background: none;
+    color: white;
+    opacity: 40%;
+    z-index: 100;
+}
+
+.carousel__anterior{
+    @extend %buttons;
+    left: 40px;
+}
+
+.carousel__siguiente{
+    @extend %buttons;
+    right: 40px;
+}
+
+.carousel__lista{
+    overflow: hidden;
+}
+
+.carousel__indicadores{
+    position: absolute;
+    z-index: 100;
+    .glider-dot{
+        background-color: white;
+        &:hover{
+            opacity: .5;
+        }
+            &:active{
+                background-color: $color-primary;
+            }
+        }
+}
+
