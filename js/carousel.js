@@ -1,5 +1,5 @@
 //document.querySelector('next').addEventListener('click', next);
-
+/*
 function next() {
     console.log("Hola");
 }
@@ -34,7 +34,7 @@ function getAll() {
     }
 }
 getAll();
-
+*/
 /*
 <img src="./assets/images/banners/banner-aquaman.jpg" class="d-block w-100" alt="Banner acuaman">
 <div class="carousel-caption d-none d-md-block">
@@ -59,3 +59,15 @@ call.onreadystatechange = function() {
         })
     }
 }*/
+
+window.addEventListener('load', function(){
+    new Glider(document.querySelector('.carousel__lista') , {
+        slidesToShow: 1,
+        dots: '.carousel__indicadores',
+        draggable: true,
+        arrows: {
+          prev: '.carousel__anterior',
+          next: '.carousel__siguiente'
+        }
+    })
+})

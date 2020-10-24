@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peliculas</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.css" integrity="sha512-YM6sLXVMZqkCspZoZeIPGXrhD9wxlxEF7MzniuvegURqrTGV2xTfqq1v9FJnczH+5OGFl5V78RgHZGaK34ylVg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 
 <body>
@@ -37,6 +39,7 @@
     </nav>
 
     <!--Carrusel-->
+    <!---
     <div id="carouselExampleCaptions" class="carousel" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -52,6 +55,57 @@
                 </div>
             </div>
         </div>
+    </div>
+    -->
+    <div class="carousel">
+        <div class="carousel__contenedor">
+            <button arial-label="Anterior" class="carousel__anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel__lista">
+                <div class="carousel__elemento">
+                    <img src="/assets/images/banners/banner-aquaman.jpg" alt="" class="d-block w-100">
+                        <!--<div class="carousel-caption d-none d-md-block">
+                            <div class="float-left text-left col-5">
+                                <h3 class="text-uppercase mt-5">Aquaman</h3>
+                                <p class="">Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and to be a hero to the world</p>
+                                <a class="btn btn-warning">WHATCH NOW</a>
+                                <a class="btn btn-outline-secondary">MORE INFO</a>
+                            </div>
+                        </div>-->
+                </div>
+                <div class="carousel__elemento">
+                    <img src="/assets/images/banners/banner-bumblebee.jpg" alt="" class="d-block w-100">
+                        <!--<div class="carousel-caption d-none d-md-block">
+                            <div class="float-left text-left col-5">
+                                <h3 class="text-uppercase mt-5">Bumblebee</h3>
+                                <p class="">On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken</p>
+                                <a class="btn btn-warning">WHATCH NOW</a>
+                                <a class="btn btn-outline-secondary">MORE INFO</a>
+                            </div>
+                        </div>-->
+                </div>
+                <div class="carousel__elemento">
+                    <img src="/assets/images/banners/banner-venom.png" alt="" class="d-block w-100">
+                        <!--<div class="carousel-caption d-none d-md-block">
+                            <div class="float-left text-left col-5">
+                                <h3 class="text-uppercase mt-5">Venom</h3>
+                                <p class="">Eddie Brock (Tom Hardy) is an investigative journalist in San Francisco asking probing questions about the preening space-tech CEO Carlton Drake (Riz Ahmed). The reporter’s quest to uncover shady dealings eventually costs him his job and ruins his relationship with his fiancée, Anne Weying (Michelle Williams). So Eddie breaks into Drake’s secret lab, where he comes into contact with an alien creature— Venom, a glob of black goo one can wear as a kind of living costume—that seeps right into his skin</p>
+                                <a class="btn btn-warning">WHATCH NOW</a>
+                                <a class="btn btn-outline-secondary">MORE INFO</a>
+                            </div>
+                        </div>
+                    -->
+                </div>
+            </div>
+
+            <button arial-label="Siguiente" class="carousel__siguiente">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div role="tablist" class="carousel__indicadores"></div>
     </div>
 
     <!--Cards-->
@@ -102,11 +156,11 @@
 
 
     <!--Scripts-->
-    <script src="./js/ajax.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.js" integrity="sha512-NI5tuaiyhrV4EkyHBGHJj9uaL6uu7fz/WCoMnEwvHi8WXTKZ9f8P1v517sdTGVpT31/UEHRdLMuNdPon9F3HUg==" crossorigin="anonymous"></script>
+    <script src="./js/carousel.js"></script>
 </body>
 
 </html>
