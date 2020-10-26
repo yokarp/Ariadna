@@ -37,9 +37,22 @@
 .carousel__indicadores .glider-dot {
   background-color: white;
 }
+.carousel__indicadores .glider-dot:active {
+  background-color: #f7e032;
+}
 .carousel__indicadores .glider-dot:hover {
   opacity: 0.5;
 }
 .carousel__indicadores .glider-dot:active {
   background-color: #f7e032;
+}
+
+.text__banner {
+  position: relative;
+  z-index: 100;
+}
+
+@font-face {
+  font-family: Open-sanz;
+  src: url(../Fonts/OpenSanz/OpenSans-Regular.ttf);
 }
